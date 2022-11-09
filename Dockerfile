@@ -1,0 +1,4 @@
+FROM mongo:5.0
+WORKDIR /app
+COPY . .
+EXPOSE 27017

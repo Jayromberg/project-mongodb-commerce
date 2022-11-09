@@ -1,0 +1,14 @@
+version: '3.1'
+
+services:
+
+  mongo:
+    build: .
+    container_name: db_mongo
+    working_dir: /app
+    restart: always
+    ports:
+      - 27017:27017
+    volumes:
+      - ./:/app
+    command: ./scripts/evaluate.sh
