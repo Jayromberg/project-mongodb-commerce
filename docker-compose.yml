@@ -11,4 +11,3 @@ services:
       - 27017:27017
     volumes:
       - ./:/app
-    command: ./scripts/evaluate.sh
