@@ -16,6 +16,8 @@ db.produtos.updateMany(
 db.produtos.find(
   {},
   { 
-    nome: 1, avaliacao: 1, _id: 0,
+    nome: 1, 
+    avaliacao: 1, 
+    _id: 0,
   },
 );
