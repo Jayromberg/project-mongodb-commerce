@@ -1,6 +1,6 @@
-# mongodb-commerce
+# Project Mongodb Commerce
 
-Um projeto com objetivo de consolidar os conhecimentos sobre mongodb, nele possui 32 desafio para serem resolvidos com queries do mongodb.
+O Projeto Mongodb Commerce são 32 desafios para consolidar o desenvolvimento de queries para o banco de dados mongodb.
 
 ## Imagem Exemplo
 
